@@ -12,8 +12,8 @@ Navigate to the project directory:
   
 Run the script with the following command:
   php parser.php --file path/to/your/csv/file.csv --unique-combinations=path/to/output/file --format=csv/json --fileheading=make,model,colour,capacity,network,grade,condition
-
---file: Path to your CSV file.
+[Docker Desktop](https://www.docker.com/products/docker-desktop).
+`--file: Path to your CSV file.`
 --unique-combinations: Path to the output file where unique combinations will be saved.
 --format: Output format (csv or json).
 --fileheading: Optional. Comma-separated list of headers for the output file. Default headers are 'make', 'model', 'colour', 'capacity', 'network', 'grade', and 'condition'.
