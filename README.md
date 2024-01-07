@@ -5,7 +5,7 @@ This PHP script is designed to parse a CSV file, identify unique combinations ba
 
 To use the script, follow these steps:
 
---Clone the repository to your local machine:
+-- Clone the repository to your local machine:
 - `git clone https://github.com/your-username/csv-parser.git`
 
 Navigate to the project directory:
