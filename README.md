@@ -12,7 +12,7 @@ To use the script, follow these steps:
   - `cd csv-parser`
   
 - Run the script with the following command:
-  - `php parser.php --file path/to/your/csv/file.csv --unique-combinations=path/to/output/file --format=csv/json --fileheading=make,model,colour,capacity,network,grade,condition`
+  - `php parser.php --file path/to/your/csv/file.csv --format=csv/json --unique-combinations=path/to/output/file --fileheading=make,model,colour,capacity,network,grade,condition`
   - --file: Path to your CSV file.
   - --unique-combinations: Path to the output file where unique combinations will be saved.
   - --format: Output format (csv or json).
