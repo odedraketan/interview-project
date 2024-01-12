@@ -107,14 +107,15 @@ class Parser
     }
 }
 
+
 // Check if the correct number of command-line arguments is provided
-if ($argc != 6 || $argv[1] !== '--file' || strpos($argv[4], '--unique-combinations=') !== 0) {
-    echo "Usage: php parser.php --file path/to/your/csv/file.csv --unique-combinations=path/to/output/file --format=csv/json\n";
+if ($argv[1] !== '--file' || strpos($argv[4], '--unique-combinations=') !== 0 ||  strpos($argv[3], '--format') !== 0) {
+    echo "Usage: php parser.php --file path/to/your/csv/file.csv --format=csv/json --unique-combinations=path/to/output/file \n";
     exit(1);
 }
 
 $outputheading = "";
-if(strpos($argv[5], '--fileheading=') == 0){
+if(isset($argv[5]) && strpos($argv[5], '--fileheading=') == 0){
     $outputheading = str_replace('--fileheading=', '', $argv[5]);
     $outputheading = explode(',', $outputheading);
 }
