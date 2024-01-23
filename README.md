@@ -1,7 +1,7 @@
 # CSV Parser
 This PHP script is designed to parse a CSV file, identify unique combinations based on specified fields, and save the results in various output formats (e.g., CSV or JSON).
 
-## Usage
+## How to Use
 
 To use the script, follow these steps:
 
@@ -10,9 +10,10 @@ To use the script, follow these steps:
 
 - Navigate to the project directory:
   - `cd csv-parser`
-  
+- Install dependencies using Composer:
+    - `composer install`
 - Run the script with the following command:
-  - `php parser.php --file path/to/your/csv/file.csv --format=csv/json --unique-combinations=path/to/output/file --fileheading=make,model,colour,capacity,network,grade,condition`
+  - `php app.php --file path/to/your/csv/file.csv --format=csv/json --unique-combinations=path/to/output/file --fileheading=make,model,colour,capacity,network,grade,condition`
   - --file: Path to your CSV file.
   - --unique-combinations: Path to the output file where unique combinations will be saved.
   - --format: Output format (csv or json).
