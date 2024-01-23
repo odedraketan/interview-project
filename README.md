@@ -9,7 +9,7 @@ To use the script, follow these steps:
   - `git clone https://github.com/your-username/csv-parser.git`
 
 - Navigate to the project directory:
-  - `cd csv-parser`
+  - `cd interview-project`
 - Install dependencies using Composer:
     - `composer install`
 - Run the script with the following command:
